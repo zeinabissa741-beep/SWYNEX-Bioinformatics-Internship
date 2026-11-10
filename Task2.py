@@ -1,16 +1,39 @@
-from Bio import SeqIO
-from pathlib import Path
+import requests
+import time
+from Bio.Blast import NCBIXML
 
-fasta_file = "sequence.fasta"
-code = ""
-seq = ""
+rid = "F665558Z014"
 
-for record in SeqIO.parse(fasta_file, "fasta"):
-    code = record.id
-    seq = record.seq
+url = "https://blast.ncbi.nlm.nih.gov/Blast.cgi"
 
-#how many a.a.
-aa = len(seq)
-print(f" {code} has {aa} amino acids")
+params = {
+    "CMD": "Get",
+    "RID": rid,
+    "FORMAT_TYPE": "XML"
+}
 
-#sequence similarity
+while True:
+    response = requests.get(url, params=params)
+
+    if "Status=WAITING" in response.text:
+        print("BLAST is still running. Checking again in 60 seconds...")
+        time.sleep(60)
+
+    elif "Status=FAILED" in response.text:
+        print("BLAST search failed.")
+        break
+
+    elif "Status=READY" in response.text:
+        if "ThereAreHits=no" in response.text:
+            print("No hits found.")
+            break
+
+        print("BLAST search completed!")
+        with open("blast_results.xml", "w") as file:
+            file.write(response.text)
+        break
+with open("blast_results.xml") as result_handle:
+    blast = NCBIXML.read(result_handle)
+
+for alignment in blast.alignments:
+    print(alignment.title)
