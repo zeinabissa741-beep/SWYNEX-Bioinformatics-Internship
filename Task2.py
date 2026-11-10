@@ -1,39 +1,35 @@
-import requests
-import time
+from Bio import SeqIO
+from Bio.Blast import NCBIWWW
 from Bio.Blast import NCBIXML
 
-rid = "F665558Z014"
+from pathlib import Path
 
-url = "https://blast.ncbi.nlm.nih.gov/Blast.cgi"
+#reading and parsing fasta file
+fasta_file = "sequence.fasta"
+code = ""
+seq = ""
+for record in SeqIO.parse(fasta_file, "fasta"):
+    code = record.id
+    seq = record.seq
 
-params = {
-    "CMD": "Get",
-    "RID": rid,
-    "FORMAT_TYPE": "XML"
-}
+#how many a.a.
+aa = len(seq)
+print(f" {code} has {aa} amino acids")
 
-while True:
-    response = requests.get(url, params=params)
+#sequence similarity
+result = NCBIWWW.qblast("blastp", "nr", seq, 
+                        hitlist_size=5)
+blast = NCBIXML.read(result)
 
-    if "Status=WAITING" in response.text:
-        print("BLAST is still running. Checking again in 60 seconds...")
-        time.sleep(60)
-
-    elif "Status=FAILED" in response.text:
-        print("BLAST search failed.")
-        break
-
-    elif "Status=READY" in response.text:
-        if "ThereAreHits=no" in response.text:
-            print("No hits found.")
-            break
-
-        print("BLAST search completed!")
-        with open("blast_results.xml", "w") as file:
-            file.write(response.text)
-        break
-with open("blast_results.xml") as result_handle:
-    blast = NCBIXML.read(result_handle)
 
 for alignment in blast.alignments:
-    print(alignment.title)
+    if "Homo sapiens" in alignment.hit_def:
+        continue
+    
+    for hsp in alignment.hsps:
+        print(f"Sequence: {alignment.title}")
+        print(f"Score: {hsp.score}")
+        print(f"length: {hsp.align_length}")
+        print(f"Query: {hsp.query}")
+        print(f"Subject: {hsp.sbjct}")
+        print('\n')
