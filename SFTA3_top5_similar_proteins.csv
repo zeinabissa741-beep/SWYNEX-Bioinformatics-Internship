@@ -1,0 +1,6 @@
+Accession,Species,Description,Identity (%),Coverage (%),Alignment Length,E-value,Bit Score
+XP_054953455,Pan paniscus,surfactant-associated protein 3 isoform 2 [Homo sapiens] >ref|XP_054953455.1| surfactant-associated protein 3 [Pan paniscus],100.0,45.16,42,1.7201e-24,94.7449
+XP_011781442,Piliocolobus tephrosceles,PREDICTED: surfactant-associated protein 3 isoform X2 [Colobus angolensis palliatus] >ref|XP_011854575.1| PREDICTED: surfactant-associated protein 3 isoform X3 [Mandrillus leucophaeus] >ref|XP_017714395.1| surfactant-associated protein 3 isoform X3 [Rhinopithecus bieti] >ref|XP_023045429.1| surfactant-associated protein 3 isoform X2 [Piliocolobus tephrosceles],95.24,45.16,42,7.11257e-23,90.8929
+XP_024903708,Pteropus alecto,LOW QUALITY PROTEIN: surfactant-associated protein 3 [Pteropus alecto],83.33,45.16,42,1.55089e-17,77.0258
+XP_024617845,Neophocaena asiaeorientalis asiaeorientalis,LOW QUALITY PROTEIN: uncharacterized protein LOC112411158 [Neophocaena asiaeorientalis asiaeorientalis],79.07,46.24,43,3.53605e-16,74.7146
+XP_023587214,Trichechus manatus latirostris,LOW QUALITY PROTEIN: uncharacterized protein LOC111820579 [Trichechus manatus latirostris],44.09,95.7,93,2.78466e-15,72.4034

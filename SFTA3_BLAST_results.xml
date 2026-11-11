@@ -1,0 +1,237 @@
+<?xml version="1.0" encoding="US-ASCII"?>
+<!DOCTYPE BlastOutput PUBLIC "-//NCBI//NCBI BlastOutput/EN" "http://www.ncbi.nlm.nih.gov/dtd/NCBI_BlastOutput.dtd">
+<BlastOutput>
+  <BlastOutput_program>blastp</BlastOutput_program>
+  <BlastOutput_version>BLASTP 2.17.0+</BlastOutput_version>
+  <BlastOutput_reference>Stephen F. Altschul, Thomas L. Madden, Alejandro A. Sch&amp;auml;ffer, Jinghui Zhang, Zheng Zhang, Webb Miller, and David J. Lipman (1997), &quot;Gapped BLAST and PSI-BLAST: a new generation of protein database search programs&quot;, Nucleic Acids Res. 25:3389-3402.</BlastOutput_reference>
+  <BlastOutput_db>refseq_protein</BlastOutput_db>
+  <BlastOutput_query-ID>Query_7463420</BlastOutput_query-ID>
+  <BlastOutput_query-def>unnamed protein product</BlastOutput_query-def>
+  <BlastOutput_query-len>93</BlastOutput_query-len>
+  <BlastOutput_param>
+    <Parameters>
+      <Parameters_matrix>BLOSUM62</Parameters_matrix>
+      <Parameters_expect>0.001</Parameters_expect>
+      <Parameters_gap-open>11</Parameters_gap-open>
+      <Parameters_gap-extend>1</Parameters_gap-extend>
+      <Parameters_filter>L;</Parameters_filter>
+    </Parameters>
+  </BlastOutput_param>
+<BlastOutput_iterations>
+<Iteration>
+  <Iteration_iter-num>1</Iteration_iter-num>
+  <Iteration_query-ID>Query_7463420</Iteration_query-ID>
+  <Iteration_query-def>unnamed protein product</Iteration_query-def>
+  <Iteration_query-len>93</Iteration_query-len>
+<Iteration_hits>
+<Hit>
+  <Hit_num>1</Hit_num>
+  <Hit_id>ref|NP_001435362.1|</Hit_id>
+  <Hit_def>surfactant-associated protein 3 isoform 2 [Homo sapiens] &gt;ref|XP_054953455.1| surfactant-associated protein 3 [Pan paniscus]</Hit_def>
+  <Hit_accession>XP_054953455</Hit_accession>
+  <Hit_len>87</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>94.7449</Hsp_bit-score>
+      <Hsp_score>234</Hsp_score>
+      <Hsp_evalue>1.7201e-24</Hsp_evalue>
+      <Hsp_query-from>52</Hsp_query-from>
+      <Hsp_query-to>93</Hsp_query-to>
+      <Hsp_hit-from>46</Hsp_hit-from>
+      <Hsp_hit-to>87</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>42</Hsp_identity>
+      <Hsp_positive>42</Hsp_positive>
+      <Hsp_gaps>0</Hsp_gaps>
+      <Hsp_align-len>42</Hsp_align-len>
+      <Hsp_qseq>VNYSYCMTEDFGGRERFICNIWNTNGGLRQHRIYTAAGASQS</Hsp_qseq>
+      <Hsp_hseq>VNYSYCMTEDFGGRERFICNIWNTNGGLRQHRIYTAAGASQS</Hsp_hseq>
+      <Hsp_midline>VNYSYCMTEDFGGRERFICNIWNTNGGLRQHRIYTAAGASQS</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>2</Hit_num>
+  <Hit_id>ref|XP_011781442.1|</Hit_id>
+  <Hit_def>PREDICTED: surfactant-associated protein 3 isoform X2 [Colobus angolensis palliatus] &gt;ref|XP_011854575.1| PREDICTED: surfactant-associated protein 3 isoform X3 [Mandrillus leucophaeus] &gt;ref|XP_017714395.1| surfactant-associated protein 3 isoform X3 [Rhinopithecus bieti] &gt;ref|XP_023045429.1| surfactant-associated protein 3 isoform X2 [Piliocolobus tephrosceles]</Hit_def>
+  <Hit_accession>XP_011781442</Hit_accession>
+  <Hit_len>87</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>90.8929</Hsp_bit-score>
+      <Hsp_score>224</Hsp_score>
+      <Hsp_evalue>7.11257e-23</Hsp_evalue>
+      <Hsp_query-from>52</Hsp_query-from>
+      <Hsp_query-to>93</Hsp_query-to>
+      <Hsp_hit-from>46</Hsp_hit-from>
+      <Hsp_hit-to>87</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>40</Hsp_identity>
+      <Hsp_positive>41</Hsp_positive>
+      <Hsp_gaps>0</Hsp_gaps>
+      <Hsp_align-len>42</Hsp_align-len>
+      <Hsp_qseq>VNYSYCMTEDFGGRERFICNIWNTNGGLRQHRIYTAAGASQS</Hsp_qseq>
+      <Hsp_hseq>VNYSYCMTEDFGGRERFICNIWNTSGGLHQHRIYTAAGASQS</Hsp_hseq>
+      <Hsp_midline>VNYSYCMTEDFGGRERFICNIWNT+GGL QHRIYTAAGASQS</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>3</Hit_num>
+  <Hit_id>ref|XP_024903708.1|</Hit_id>
+  <Hit_def>LOW QUALITY PROTEIN: surfactant-associated protein 3 [Pteropus alecto]</Hit_def>
+  <Hit_accession>XP_024903708</Hit_accession>
+  <Hit_len>75</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>77.0258</Hsp_bit-score>
+      <Hsp_score>188</Hsp_score>
+      <Hsp_evalue>1.55089e-17</Hsp_evalue>
+      <Hsp_query-from>52</Hsp_query-from>
+      <Hsp_query-to>93</Hsp_query-to>
+      <Hsp_hit-from>35</Hsp_hit-from>
+      <Hsp_hit-to>75</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>35</Hsp_identity>
+      <Hsp_positive>37</Hsp_positive>
+      <Hsp_gaps>1</Hsp_gaps>
+      <Hsp_align-len>42</Hsp_align-len>
+      <Hsp_qseq>VNYSYCMTEDFGGRERFICNIWNTNGGLRQHRIYTAAGASQS</Hsp_qseq>
+      <Hsp_hseq>VNYSYCMIEDFG-XQRFTCNIWNTSGGLHQHRIYTAAGASQS</Hsp_hseq>
+      <Hsp_midline>VNYSYCM EDFG  +RF CNIWNT+GGL QHRIYTAAGASQS</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>4</Hit_num>
+  <Hit_id>ref|XP_024617845.1|</Hit_id>
+  <Hit_def>LOW QUALITY PROTEIN: uncharacterized protein LOC112411158 [Neophocaena asiaeorientalis asiaeorientalis]</Hit_def>
+  <Hit_accession>XP_024617845</Hit_accession>
+  <Hit_len>121</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>74.7146</Hsp_bit-score>
+      <Hsp_score>182</Hsp_score>
+      <Hsp_evalue>3.53605e-16</Hsp_evalue>
+      <Hsp_query-from>51</Hsp_query-from>
+      <Hsp_query-to>93</Hsp_query-to>
+      <Hsp_hit-from>80</Hsp_hit-from>
+      <Hsp_hit-to>121</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>34</Hsp_identity>
+      <Hsp_positive>39</Hsp_positive>
+      <Hsp_gaps>1</Hsp_gaps>
+      <Hsp_align-len>43</Hsp_align-len>
+      <Hsp_qseq>DVNYSYCMTEDFGGRERFICNIWNTNGGLRQHRIYTAAGASQS</Hsp_qseq>
+      <Hsp_hseq>NVNYSYCMTEDFG-XQRFTCNIWNTSGGLHQYRIYTAAGASRS</Hsp_hseq>
+      <Hsp_midline>+VNYSYCMTEDFG  +RF CNIWNT+GGL Q+RIYTAAGAS+S</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>5</Hit_num>
+  <Hit_id>ref|XP_023587214.1|</Hit_id>
+  <Hit_def>LOW QUALITY PROTEIN: uncharacterized protein LOC111820579 [Trichechus manatus latirostris]</Hit_def>
+  <Hit_accession>XP_023587214</Hit_accession>
+  <Hit_len>121</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>72.4034</Hsp_bit-score>
+      <Hsp_score>176</Hsp_score>
+      <Hsp_evalue>2.78466e-15</Hsp_evalue>
+      <Hsp_query-from>5</Hsp_query-from>
+      <Hsp_query-to>93</Hsp_query-to>
+      <Hsp_hit-from>33</Hsp_hit-from>
+      <Hsp_hit-to>121</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>41</Hsp_identity>
+      <Hsp_positive>53</Hsp_positive>
+      <Hsp_gaps>8</Hsp_gaps>
+      <Hsp_align-len>93</Hsp_align-len>
+      <Hsp_qseq>RKNRPEGEGKADTHLCRCL----RAKSRNSPYSPAASHDAVTKQEFIRGQDVNYSYCMTEDFGGRERFICNIWNTNGGLRQHRIYTAAGASQS</Hsp_qseq>
+      <Hsp_hseq>RSVQDAGESQEKKHLCLVLFLQDQAKRLTEWLQLSGFENLMSESTTFY---VNYSYCIIEDFXS-QRFTCNIWNTSGGLHQYRIYTAAGASQS</Hsp_hseq>
+      <Hsp_midline>R  +  GE +   HLC  L    +AK        +   + +++        VNYSYC+ EDF   +RF CNIWNT+GGL Q+RIYTAAGASQS</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>6</Hit_num>
+  <Hit_id>ref|XP_019500220.1|</Hit_id>
+  <Hit_def>LOW QUALITY PROTEIN: uncharacterized protein LOC109383869 [Hipposideros armiger]</Hit_def>
+  <Hit_accession>XP_019500220</Hit_accession>
+  <Hit_len>130</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>68.5514</Hsp_bit-score>
+      <Hsp_score>166</Hsp_score>
+      <Hsp_evalue>1.30321e-13</Hsp_evalue>
+      <Hsp_query-from>52</Hsp_query-from>
+      <Hsp_query-to>93</Hsp_query-to>
+      <Hsp_hit-from>90</Hsp_hit-from>
+      <Hsp_hit-to>130</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>31</Hsp_identity>
+      <Hsp_positive>33</Hsp_positive>
+      <Hsp_gaps>1</Hsp_gaps>
+      <Hsp_align-len>42</Hsp_align-len>
+      <Hsp_qseq>VNYSYCMTEDFGGRERFICNIWNTNGGLRQHRIYTAAGASQS</Hsp_qseq>
+      <Hsp_hseq>VNYSYCMIEDFXS-QRVTCNIWNASGGLHQHRIYTAPGASQS</Hsp_hseq>
+      <Hsp_midline>VNYSYCM EDF   +R  CNIWN +GGL QHRIYTA GASQS</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>7</Hit_num>
+  <Hit_id>ref|XP_023607236.1|</Hit_id>
+  <Hit_def>LOW QUALITY PROTEIN: surfactant-associated protein 3 [Myotis lucifugus]</Hit_def>
+  <Hit_accession>XP_023607236</Hit_accession>
+  <Hit_len>142</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>66.2402</Hsp_bit-score>
+      <Hsp_score>160</Hsp_score>
+      <Hsp_evalue>1.49175e-12</Hsp_evalue>
+      <Hsp_query-from>52</Hsp_query-from>
+      <Hsp_query-to>93</Hsp_query-to>
+      <Hsp_hit-from>102</Hsp_hit-from>
+      <Hsp_hit-to>142</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>31</Hsp_identity>
+      <Hsp_positive>32</Hsp_positive>
+      <Hsp_gaps>1</Hsp_gaps>
+      <Hsp_align-len>42</Hsp_align-len>
+      <Hsp_qseq>VNYSYCMTEDFGGRERFICNIWNTNGGLRQHRIYTAAGASQS</Hsp_qseq>
+      <Hsp_hseq>VNYPYCMFEDFG-XERLTCNIWNTSGGLHXDRFYTAAGASQS</Hsp_hseq>
+      <Hsp_midline>VNY YCM EDFG  ER  CNIWNT+GGL   R YTAAGASQS</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+</Iteration_hits>
+  <Iteration_stat>
+    <Statistics>
+      <Statistics_db-num>9615114</Statistics_db-num>
+      <Statistics_db-len>168859148217</Statistics_db-len>
+      <Statistics_hsp-len>0</Statistics_hsp-len>
+      <Statistics_eff-space>0</Statistics_eff-space>
+      <Statistics_kappa>0.041</Statistics_kappa>
+      <Statistics_lambda>0.267</Statistics_lambda>
+      <Statistics_entropy>0.14</Statistics_entropy>
+    </Statistics>
+  </Iteration_stat>
+</Iteration>
+</BlastOutput_iterations>
+</BlastOutput>
