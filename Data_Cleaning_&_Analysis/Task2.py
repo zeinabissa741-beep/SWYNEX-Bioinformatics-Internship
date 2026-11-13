@@ -16,7 +16,7 @@ print(f" {code} has {aa} amino acids\n")
 
 # sequence similarity
 print("----- performing sequence similarity -----\n")
-with open("SFTA3_BLAST_results.xml") as result_handle:
+with open("Data_Cleaning_&_Analysis/SFTA3_BLAST_results.xml") as result_handle:
     blast_record = NCBIXML.read(result_handle)
 print("Number of alignments:", len(blast_record.alignments), "\n")
 results = []
