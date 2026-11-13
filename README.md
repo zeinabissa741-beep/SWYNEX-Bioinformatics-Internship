@@ -9,7 +9,7 @@ Analyzing biological datasets, visualizing findings, and completing a remote bio
 - Format: FASTA (.fasta)<br>
 ### size: 1kb<br>
 ## 2. Research question:<br>
-###"How conserved is the selected surfactant protein across different species, and which regions of its amino acid sequence show the highest degree of conservation?"<br>
+### "How conserved is the selected surfactant protein across different species, and which regions of its amino acid sequence show the highest degree of conservation?"<br>
 ## 3. Sequence similarity analysis:<br>
 ### Methodology: 
 * Performed a BLASTP search against the NCBI RefSeq Protein database.
