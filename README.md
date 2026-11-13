@@ -1,6 +1,6 @@
 # SWYNEX-Bioinformatics-Internship
 Analyzing biological datasets, visualizing findings, and completing a remote bioinformatics research report.<br>
-## Documentation:<br>
+## 1. Documentation:<br>
 ### source: 
 - Repository: NCBI Protein<br>
 - Dataset accession number(s): NP_001435364<br>
@@ -8,9 +8,9 @@ Analyzing biological datasets, visualizing findings, and completing a remote bio
 - Download date: November 2, 2026<br>
 - Format: FASTA (.fasta)<br>
 ### size: 1kb<br>
-### research question: "How conserved is the selected surfactant protein across different species, and which regions of its amino acid sequence show the highest degree of conservation?"<br>
-### sequence similarity analysis:
-#### methodology: 
+## 2. Research question: "How conserved is the selected surfactant protein across different species, and which regions of its amino acid sequence show the highest degree of conservation?"<br>
+## 3. Sequence similarity analysis:<br>
+### Methodology: 
 * Performed a BLASTP search against the NCBI RefSeq Protein database.
 * Restricted results to Mammalia, excluding Homo sapiens.
 * Parsed the downloaded BLAST results using Biopython.
@@ -25,13 +25,13 @@ Analyzing biological datasets, visualizing findings, and completing a remote bio
 * BLASTP
 * Pandas
 * NCBI RefSeq Protein<br>
-### repository content:
+## 4. Repository Content:<br>
 * sequence.fasta - query protein sequence
 * analysis.ipynb - protein analysis notebook
 * SFTA3_top5_similar_proteins.csv - extracted BLASTP results<br>
-### data interpreation:
+## 5. Data Interpretation:<br>
 The BLASTP results provide sequence similarity measurements between the query protein and matching non-human mammalian protein sequences.
 Percentage identity, query coverage, and E-values can be used to assess the strength and extent of the sequence matches.
 Further comparative analysis, such as multiple sequence alignment, is needed to identify conserved regions across species.
-### data source:
+## 6. Data Source:<br>
 [NCBI Protein Database](https://www.ncbi.nlm.nih.gov/protein/)
