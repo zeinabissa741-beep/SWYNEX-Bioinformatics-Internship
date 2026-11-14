@@ -13,22 +13,22 @@
 
 ## Details<br>
 
-<p>### Molecular Weight
+### <p>Molecular Weight
 The molecular weight of the protein is 10,469.56 Da.</p>
 
-<p>### Aromaticity
+### <p>Aromaticity
 Aromaticity is 0.09, meaning about 9% of the amino acids are aromatic (phenylalanine, tryptophan, or tyrosine).</p>
 
-<p>### Instability Index
+### <p>Instability Index
 The instability index is 55.46. Values above 40 predict an unstable protein (Guruprasad et al., 1990), so SFTA3 is predicted to be unstable. This plays directly into SFTA3's function in its mechanism of surface tension reduction. In an aqueous solution, the hydrophobic patches of SFTA3 cause it to self-associate, maintaining its hydrophilicity.</p>
 
 ### <p>GRAVY (Grand Average of Hydropathy)
 The GRAVY score is -0.87. A negative value makes SFTA3 hydrophilic overall.</p>
 
-<p>### Isoelectric Point (pI)
+### <p>Isoelectric Point (pI)
 The isoelectric point is pH 9.3. At this pH, SFTA3 has a net charge of 0.</p>
 
-<p>### Charge at Neutral pH
+### <p>Charge at Neutral pH
 At neutral pH (7), SFTA3 is positively charged, with a net charge of +4.73 e (elementary charge units).</p>
 
 ## References<br>
