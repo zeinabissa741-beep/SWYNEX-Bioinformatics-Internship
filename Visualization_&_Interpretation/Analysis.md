@@ -24,10 +24,10 @@ The instability index is 55.46. Values above 40 predict an unstable protein (Gur
 
 ### GRAVY (Grand Average of Hydropathy)
 The GRAVY score is -0.87. A negative value makes SFTA3 hydrophilic overall.<br>
----
+
 ### Isoelectric Point (pI)
 The isoelectric point is pH 9.3. At this pH, SFTA3 has a net charge of 0.<br>
----
+
 ### Charge at Neutral pH
 At neutral pH (7), SFTA3 is positively charged, with a net charge of +4.73 e (elementary charge units).<br>
 
